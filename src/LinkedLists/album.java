@@ -37,6 +37,7 @@ public class album {
             playlist.add(this.album.get(index));
             return true;
         }
+        System.out.println("This system does not have a trach " + trackNumber);
         return false;
     }
 
@@ -46,6 +47,7 @@ public class album {
             playlist.add(checkedSong);
             return true;
         }
+        System.out.println("The song " + title + " is not in this album.");
         return false;
     }
 }
