@@ -1,3 +1,3 @@
 # CoreJava
 
-This is my CoreJava Best Practice(warm up) codes.
+This is my CoreJava best practice(warm up) codes.
