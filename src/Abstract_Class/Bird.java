@@ -1,6 +1,6 @@
 package Abstract_Class;
 
-public abstract class Bird extends Animal {
+public abstract class Bird extends Animal implements CanFly {
 
     public Bird(String name) {
         super(name);
@@ -16,6 +16,10 @@ public abstract class Bird extends Animal {
         System.out.println("The bird is breathing slowly.");
     }
 
-    //some birds cannot fly so abstract fly method is added
-    abstract void fly();
+    @Override
+    public void fly(){
+        System.out.println(getName() + " is flapping its wings.");
+    }
+
+//    abstract void canFly();
 }
