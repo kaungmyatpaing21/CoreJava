@@ -39,10 +39,9 @@ public class MyLinkedList implements NodeList {
                     this.root = newItem;
                 } else {
                     //new item is less, insert before
-                    currentItem.previous().setNext(newItem);
-                    newItem.setPrevious(currentItem.previous());
-                    newItem.setNext(currentItem);
-                    currentItem.setPrevious(newItem);
+                    currentItem.previous().setNext(newItem).setPrevious(currentItem.previous());
+                    newItem.setNext(currentItem).setPrevious(newItem);
+
                 }
                 return true;
             } else{
