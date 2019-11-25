@@ -31,7 +31,7 @@ public class Fish extends Animal{
         System.out.println("Fish.moveBackFin method called.");
     }
 
-    private void swin(){
+    private void swim(){
         moveMuscles();
         moveBackFin();
         super.move();
