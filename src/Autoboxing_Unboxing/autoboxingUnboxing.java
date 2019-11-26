@@ -36,7 +36,7 @@ public class autoboxingUnboxing {
             System.out.println(myIntegerArrayList.get(i).intValue()); //intValue converts Integer object type to primitive integer type - unboxing
         }
 
-        //also the same for double type
+        //also the same for double typeprimitive
         ArrayList<Double> myDoubleArrayList = new ArrayList<Double>();
         for(double i = 0.0; i < 10; i += 0.5){
             myDoubleArrayList.add(Double.valueOf(i));

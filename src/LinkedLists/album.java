@@ -37,7 +37,7 @@ public class album {
             playlist.add(this.album.get(index));
             return true;
         }
-        System.out.println("This system does not have a trach " + trackNumber);
+        System.out.println("This system does not have a track " + trackNumber);
         return false;
     }
 
