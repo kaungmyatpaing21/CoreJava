@@ -1,5 +1,6 @@
 package Inner_Class;
 
+import LinkedLists.Demo;
 import interfaces.GearBox;
 
 import java.util.Scanner;
@@ -27,8 +28,9 @@ public class Main {
 //        mclaren.changeGear(3);
 //        System.out.println(mclaren.wheelSpeed(1200));
 
-        //Local Class Demo Test
-        // this class is needed for only buttons and won't be used in any other places
+//         Local Class Demo Test
+//         this class is needed for only buttons and won't be used in any other places
+
 //        class ClickListener implements Button.OnClickListener{
 //            public ClickListener(){
 //                System.out.println("I've been attached.");

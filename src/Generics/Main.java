@@ -9,7 +9,7 @@ public class Main {
         Team<FootballPlayer> manU = new Team<>("Manchester United");
         Team<FootballPlayer> chel = new Team<>("Chelsea");
         Team<FootballPlayer> lipool = new Team<>("Liverpool");
-        Team<BaseballPlayer> wings = new Team("South Club");
+        Team<BaseballPlayer> wings = new Team<>("South Club");
 
         manU.addPlayer(foot);
         wings.addPlayer(pat);
