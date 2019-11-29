@@ -18,5 +18,15 @@ public class Main {
         manU.matchResult(chel, 3, 2);
         manU.matchResult(lipool, 1, 4);
 //        manU.matchResult(wings, 0,5);
+
+        System.out.println("Rankings: ");
+        System.out.println(manU.ranking());
+        System.out.println(chel.ranking());
+        System.out.println(lipool.ranking());
+        System.out.println(wings.ranking());
+
+        System.out.println(manU.compareTo(chel));
+        System.out.println(chel.compareTo(lipool));
+        System.out.println(lipool.compareTo(manU));
     }
 }
