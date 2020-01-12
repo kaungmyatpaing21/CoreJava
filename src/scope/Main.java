@@ -7,5 +7,8 @@ public class Main {
 
         ScopeCheck.InnerClass innerClass = scopeCheck.new InnerClass();
         innerClass.timesTwo();
+
+        // visibility test
+        scopeCheck.useInner();
     }
 }
