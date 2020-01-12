@@ -1,7 +1,5 @@
 package scope;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 //        ScopeCheck scopeCheck = new ScopeCheck();
@@ -13,8 +11,14 @@ public class Main {
 //        // visibility test
 //        scopeCheck.useInner();
 
-        //chellenge
-        X x = new X(new Scanner(System.in));
-        x.x();
+        // visibility chellenge
+//        X x = new X(new Scanner(System.in));
+//        x.x();
+
+        //SIB Test
+        System.out.println("Main method called.");
+        SIBTest sibTest = new SIBTest();
+        sibTest.someMethod();
+        System.out.println("Owner is " + sibTest.owner);
     }
 }
